@@ -1,0 +1,113 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 50px;
+    color: #4a4a4a; /* Dark gray text for better readability */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #8ec5fc, #e0c3fc); /* Updated gradient for a fresh look */
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.05); /* Subtle inner shadow for depth */
+}
+
+/* Container */
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #e5e528; /* Clean white background */
+    padding: 100px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Subtle box shadow for depth */
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Light lifting effect on hover */
+}
+
+/* Heading */
+h1 {
+    color: #2c3e50; /* Classic dark blue-gray color for a sophisticated look */
+    font-size: 3.0rem;
+    margin-bottom: 30px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+/* Label */
+label {
+    font-size: 2rem;
+    font-weight: 100;
+    margin-bottom: 8px;
+    display: block;
+    color: #060606; /* Soft, muted gray for labels */
+}
+
+/* Input Fields */
+input[type="text"] {
+    width: 100%;
+    padding: 24px;
+    margin-bottom: 20px;
+    border: 2px solid #060606; /* Soft border color */
+    border-radius: 24px;
+    font-size: 1.4rem;
+    box-sizing: border-box;
+    transition: all 1s ease;
+    background-color: #060606; /* Light off-white background for inputs */
+}
+
+input[type="text"]:focus {
+    border-color: #3498db; /* Elegant blue color for focus state */
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.4); /* Soft glow effect */
+    outline: none;
+    background-color: #ffffff; /* White background when focused */
+}
+
+/* Button Styling */
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #3498db; /* Elegant blue color */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Soft shadow for button */
+}
+button:hover {
+    background-color: #2980b9; /* Slightly darker blue on hover */
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Deeper shadow on hover */
+}
+button:active {
+    background-color: #21618c; /* Even darker blue when clicked */
+    transform: translateY(0);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Subtle shadow effect */
+}
+
+/* Result Box */
+#result {
+    margin-top: 20px;
+    padding: 15px;
+    border: 3px solid #060606; /* Soft border for result box */
+    border-radius: 16px;
+    background-color: #f9f9f9; /* Light gray background for results */
+    font-size: 1rem;
+    color: #060606; /* Dark gray text */
+    box-sizing: border-box;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Soft shadow for result box */
+    transition: background-color 0.3s ease;
+}
+#result:hover {
+    background-color: #f0f0f0; /* Slightly darker gray when hovered */
+}
+styles.css
+Displaying styles.css.
